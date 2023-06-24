@@ -66,6 +66,11 @@ The median for c39 is 51.0 and c52 is 64.5, which shows box c52 is greater than 
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
+```{r}
+t.test(VitC~Cult,data=veggy)
+```
+
+The probability of the p_value is .00000003405, which is a small number. In comparing C39 and C52 show that vitamin is very low. The hypothesis is untrue because C39 and c52 is not equal.
 
 # Discussion and Conclusion
 
