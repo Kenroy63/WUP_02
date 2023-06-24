@@ -48,18 +48,18 @@ ggplot(veggy, aes(x = Cult, y = VitC)) +
 
 The box plot shows the box C39 is the lower and box C52 is above. Box C52 is greater than C39, which its statistical different in the diagram. 
 
-
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
 
+<!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
 ```{r}
 favstats(VitC~Cult,data=veggy)
 ```
 
-The probability of the p_value is .00000003405, which is a small number. In comparing C39 and C52 show that vitamin is very low. 
-
+The median for c39 is 51.0 and c52 is 64.5, which shows box c52 is greater than box c39. Also the data shows their will be no overlapping with the two boxes. 
 
 
 ## Inferential Results
